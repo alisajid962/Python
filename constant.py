@@ -1,0 +1,2 @@
+NAME = "Ali"
+CITY="Dwn"
