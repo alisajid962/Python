@@ -34,6 +34,7 @@ print(name[0:4])#first three chracter
 print(name[:]) # copy the whole string
 print(name[-3:]) # last three character
 print(name[::2])
+print(id(name)) # memory address
 
 
 # # String formatting 
