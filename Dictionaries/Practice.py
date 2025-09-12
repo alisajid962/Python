@@ -1,5 +1,5 @@
 Dic = {"Name:": "Ali ","Age: ":"20","Education": "Se"}
-print(Dic)
+# print(Dic)
 # getting an element 
 # print(Dic.get("Nam e:","Null"))
 # print(Dic["Name:"])
@@ -33,10 +33,11 @@ print(Dic)
 
 
 # Nested Dict
-Students = {   "Student1":{"Name":"Ali Sajid","Dep":"Se"},
-                "Student2":{"Name":"Zain Shaffique","Dep":"Optics"}          
-}
-
+# Students = {   "Student1":{"Name":"Ali Sajid","Dep":"Se"},
+#                 "Student2":{"Name":"Zain Shaffique","Dep":"Optics"}          
+# }
+# for key in Students:
+#     print(key,Students[key]["Name"])
 # a = Students["Student2"]["Name"]
 # print(a)
 
@@ -47,6 +48,8 @@ my_dict = {
      "subjects": ["Math", "Physics", "Chemistry"]
 
  }
+print(my_dict["subjects"].append("Biology"))
+print(my_dict)
 # Accessing
 # print(my_dict["grades"])        # [90, 85, 88]
 # print(my_dict["grades"][0])     # 90
