@@ -17,6 +17,7 @@ print("Stored Hash:", stored_hash)
 
 user_input = input("Enter your password: ")
 if hash_password(user_input) == stored_hash:
-    print("Password is correct!")
+    print("Password is correct! ")
+    print("You are now Logged in. ")
 else:
     print("Incorrect password.")
