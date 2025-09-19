@@ -30,3 +30,6 @@ for title,author,year in Books:
         print(f"Title: {title} , Author: {author}, Year: {year}")
 title1,author1,year1 = Books[0]
 print(f"Title: {title1}, Author: {author1}, Year: {year1}")
+t = 1, "apple", 3.14
+print(t)
+print(type(t))
