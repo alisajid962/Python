@@ -33,3 +33,8 @@ print(f"Title: {title1}, Author: {author1}, Year: {year1}")
 t = 1, "apple", 3.14
 print(t)
 print(type(t))
+import hmac, hashlib
+key = b'secretkey'
+msg = b'Hello Security'
+mac = hmac.new(key, msg, hashlib.sha256).hexdigest()
+print(mac)
