@@ -2,11 +2,16 @@ set1= set()
 print(type(set1))
 
 
-s = {1,1,1,2,2,4,4,5,6,55,77,88,99}
-s2={33,34,35,36,37,38,39}
-print(s)
+# s = {1,2,3}
+# print(s)
+# s.add(4)
+# print(s)
+# s.update([5,6])
+# print(s)
+# s.remove(2)
+# s.discard(3)
+# print(s)
 
-s.add()
 
 
 
@@ -27,3 +32,9 @@ s.add()
 
 # s.clear()       # Removes all elements
 # print(s)
+s1  = {1,2,3,4,5}
+s2 = {4,5,6,7,8,9}
+print(s1 | s2)           #union
+print(s1 & s2)    #interseciton
+print(s1 - s2) # diffrence 
+print(s1.issubset(s2)) 
