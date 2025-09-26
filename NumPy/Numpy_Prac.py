@@ -37,3 +37,4 @@ print(ran4)
 rarr=np.array(ran4)
 print(rarr[0:5],rarr[3])
 print(ran4.argmax())
+

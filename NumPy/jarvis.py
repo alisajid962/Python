@@ -35,6 +35,7 @@ def listen(timeout=5, phrase_time_limit=8):
 
 # Simple Wikipedia search using MediaWiki API
 def wiki_summary(query):
+    
     url = "https://en.wikipedia.org/api/rest_v1/page/summary/" + requests.utils.requote_uri(query)
     try:
         r = requests.get(url, timeout=5)
