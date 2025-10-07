@@ -1,2 +1,3 @@
-NAME = "Ali"
-CITY="Dwn"
+a = "ali sajid"
+title = a.title()
+print(title)
