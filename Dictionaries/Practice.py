@@ -1,4 +1,4 @@
-Dic = {"Name:": "Ali ","Age: ":"20","Education": "Se"}
+# Dic = {"Name:": "Ali ","Age: ":"20","Education": "Se"}
 # print(Dic)
 # getting an element 
 # print(Dic.get("Nam e:","Null"))
@@ -48,8 +48,10 @@ my_dict = {
      "subjects": ["Math", "Physics", "Chemistry"]
 
  }
-print(my_dict["subjects"].append("Biology"))
-print(my_dict)
+for item in my_dict.keys():
+    print(item)
+# print(my_dict["subjects"].append("Biology"))
+# print(my_dict)
 # Accessing
 # print(my_dict["grades"])        # [90, 85, 88]
 # print(my_dict["grades"][0])     # 90
